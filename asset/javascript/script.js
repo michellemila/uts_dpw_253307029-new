@@ -183,6 +183,7 @@ style.innerHTML = `
     .label { color: #94a3b8; }
     .value { color: #fff; font-weight: 600; }
     .value.highlight { color: #00c6ff; font-size: 18px; }
+    
     .status-badge { background: linear-gradient(135deg, #f59e0b, #d97706); 
         padding: 5px 15px; border-radius: 20px; font-size: 12px; color: white; }
     .info-box { background: rgba(0, 198, 255, 0.1); border-left: 4px solid #00c6ff; 

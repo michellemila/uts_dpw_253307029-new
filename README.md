@@ -11,6 +11,3 @@ Website ini terdiri dari tiga halaman utama, yaitu halaman beranda (index.html),
 
 Tampilan website dibuat menggunakan CSS eksternal agar terlihat lebih rapi dan modern, dengan tambahan efek seperti gradasi warna, animasi hover, dan tampilan form yang interaktif. Selain itu, digunakan JavaScript untuk memberikan validasi pada form, sehingga data yang dimasukkan harus lengkap dan sesuai ketentuan, seperti NIK yang harus berjumlah 16 digit.
 
-Jika terjadi kesalahan saat pengisian, akan muncul notifikasi (toast) sebagai peringatan. Jika data sudah benar, akan muncul notifikasi berhasil dan form akan otomatis dikosongkan kembali.
-
-Dengan adanya website ini, proses pendaftaran menjadi lebih mudah, cepat, dan terstruktur dibandingkan dengan cara manual.
