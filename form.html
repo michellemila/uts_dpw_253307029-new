@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Form Pendaftaran</h1>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="alur.html">Alur</a>
+    <a href="form.html">Daftar</a>
+</nav>
+
+<main>
+    <form id="formDaftar">
+        <input type="text" id="nama" placeholder="Nama Lengkap" required>
+        <input type="text" id="nik" placeholder="NIK (16 digit)" maxlength="16" required>
+
+        <select id="jalur" required>
+            <option value="">Pilih Jalur</option>
+            <option value="zonasi">Zonasi</option>
+            <option value="prestasi">Prestasi</option>
+             <option value="prestasi">Afirmasi</option>
+        </select>
+
+        <!-- GANTI: type="button" jadi type="submit" dan hapus onclick -->
+        <button type="submit">Kirim Pendaftaran</button>
+    </form>
+</main>
+
+<div id="toast"></div>
+
+<footer>
+    <p>&copy; SMA TARUNA KIRANA NGAWI 2026 PPDB</p>
+</footer>
+
+<script src="asset/javascript/script.js"></script>
+
+</body>
+</html>
